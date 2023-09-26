@@ -7,23 +7,23 @@ Routers are like traffic directors to help the letters (data) travel around the 
 
 ## Table of Content
 
-- [Subnet Mask](#📨Subnet-Mask)
-- [Subnet](#📨-Subnet)
-- [Subnet Information](#📨-Subnet-Information)
-- [IP Address](#📨-IP-Address)
-- [TCP](#📨-TCP-(Transmission-Control-Protocol))
-- [Routers](#📨-Routers)
-- [Switches](#📨-Switches)
-- [Routing Table Elements](#📨-Routing-Table-Elements)
-    - [Destination Network / IP Address](#📨-Destination-Network-or-IP-Address)
-    - [Next-Hop Router](#📨-Next-Hop-Router-or-Gateway)
-    - [Subnet Mask](#📨-Subnet-Mask-(Netmask))
-    - [Interface](#📨-Interface)
-- [Resources](#🌐-Resources)
+- [Subnet Mask](#Subnet-Mask)
+- [Subnet](#Subnet)
+- [Subnet Information](#Subnet-Information)
+- [IP Address](#IP-Address)
+- [TCP](#TCP-(Transmission-Control-Protocol))
+- [Routers](#Routers)
+- [Switches](#Switches)
+- [Routing Table Elements](#Routing-Table-Elements)
+    - [Destination Network / IP Address](#Destination-Network-or-IP-Address)
+    - [Next-Hop Router](#Next-Hop-Router-or-Gateway)
+    - [Subnet Mask](#Subnet-Mask-(Netmask))
+    - [Interface](#Interface)
+- [Resources](#Resources)
 
 ## 🌐 Networking Basics
 
-### 📨 Subnet Mask
+### 📨Subnet Mask
 A subnet mask is a 32-bit (IPv4) or 128-bit (IPv6) number used to separate the network and host portions of an IP address. <br>
 It's represented in decimal (e.g., 255.255.255.0) or CIDR notation (e.g., /24). <br>
 In a network, devices or subnets within the same segment often share the same subnet mask. <br>
@@ -31,7 +31,7 @@ In larger networks, different subnets with varying subnet masks coexist, interco
 Devices in the same subnet have identical network portions in their IP addresses, with the host portion distinguishing individual devices. <br>
 The subnet mask defines the number of bits allocated to the network and host portions.
 
-### 📨 Subnet
+### 📨Subnet
 A subnet is a logical division of an IP network created using a subnet mask. <br>
 It consists of a range of IP addresses with a common network address and subnet mask. <br>
 Devices in the same subnet can communicate directly without routing. <br>
@@ -39,7 +39,7 @@ Subnets improve network organization, security, and efficiency. <br>
 Subnets are sssential for IP address management and traffic control <br>
 Think of a subnet like a group of friends who live on the same street. They can easily talk to each other because they're in the same group/neigberhoud. <br>
 
-### 📨 Subnet Information
+### 📨Subnet Information
 
 | CIDR Notation | Dotted Decimal Notation | Number of IP Addresses per Subnet | Number of Subnets | Bits  | Binary |
 |---------------|-------------------------|-----------------------------------|-------------------|-------|-------------------------------------|
@@ -54,56 +54,56 @@ Think of a subnet like a group of friends who live on the same street. They can 
 | /24           | 255.255.255.0           | 256                               | 1                 | 24    | 11111111.11111111.11111111.00000000 |
 
 
-### 📨 IP Address
+### 📨IP Address
 An IP address is a unique numerical label for networked devices to communicate over IP-based networks. <br>
 IPv4 uses 32-bit addresses (e.g., 192.168.1.1), while IPv6 uses 128-bit addresses (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). <br>
 They're divided into network and host portions based on the subnet mask. <br>
 An IP address is like a phone number for computers. It helps them call each other and send messages over the internet. <br>
 
-### 📨 TCP *(Transmission Control Protocol)*
+### 📨TCP *(Transmission Control Protocol)*
 TCP is a core protocol in the TCP/IP suite. <br>
 It provides reliable, connection-oriented communication with data integrity, sequencing, and error detection. <br>
 TCP establishes connections, acknowledges data, and retransmits lost packets. <br>
 TCP is like a special postman. It makes sure that letters (data) sent between computers arrive in the right order and don't get lost. <br>
 
-### 📨 Routers
+### 📨Routers
 Routers connect different IP networks and determine the best data path from source to destination. <br>
 Routing tables guide routers in forwarding traffic between subnets or to the internet. <br>
 Routers are like traffic directors for the internet. They help data (like packages) find the best way to travel from one computer to another on the internet. <br>
 
-### 📨 Switches
+### 📨Switches
 Switches create local area networks (LANs) by forwarding Ethernet frames within a single segment. <br>
 Switches are like traffic lights for computers in a neighborhood. They help them talk to each other quickly and without confusion. <br>
 
-### 📨 Routing Table Elements
--  🔵 **Routing Tables** <br>
+### 📨Routing Table Elements
+-  🔵**Routing Tables** <br>
 Essential tools for routers to make forwarding decisions based on destination IP addresses.
 Ensure efficient and accurate routing of network traffic.
 Think of this like a big list the postman carries, showing all the addresses they know and how to get to them. They use this list to make sure your letters reach the right place.
 
--  🟢 **Destination Network or IP Address** <br>
+-  🟢**Destination Network or IP Address** <br>
 Defines the network or specific host to which traffic should be directed.
 Represents a range of IP addresses in CIDR notation for networks or a single IP address for hosts.
 This is like telling a postman the address of your friend's house so the letter can be delivered to the right place.
 
--  🔴 **Next-Hop Router or Gateway** <br>
+-  🔴**Next-Hop Router or Gateway** <br>
 The IP address of the device responsible for forwarding traffic to the final destination.
 Can be directly connected to the router or further upstream.
 This is like the postman's helper who knows how to get your letter closer to your friend's house. They pass it along until it gets there.
 
--  🟡 **Subnet Mask *(Netmask)*** <br>
+-  🟡**Subnet Mask *(Netmask)*** <br>
 Indicates which part of the IP address is for the network and which is for hosts.
 Helps routers determine if an IP address belongs to a specified destination network.
 Think of this like the part of the address that says which street your friend's house is on. It helps computers know which group they belong to.
 
--  🟣 **Interface** <br>
+-  🟣**Interface** <br>
 Represents the network interface (e.g., Ethernet, Wi-Fi, VLAN) used to transmit packets to the next-hop router or gateway.
 Imagine this as the way the letter or data leaves your house. It's like choosing whether to send a letter through the mailbox or drop it at the post office.
 
 ![image](https://github.com/JoviMetzger/42Project-Net_Practice/assets/117259075/8d2ad1d7-c63c-4a29-8239-c740678cce71)
 
 
-## 🌐 Resources
+## 🌐Resources
 
 - [Communications and Networks](https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixbman/commadmn/tcp_address.htm#:~:text=TCP%2FIP%20requires%20a%20unique,is%20using%20a%20name%20server.)
 - [TCP/IP Explained Simply](https://www.youtube.com/watch?v=tnAW02zvFhU)
