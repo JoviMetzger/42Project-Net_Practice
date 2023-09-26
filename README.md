@@ -5,21 +5,20 @@ Computers and the internet are a bit like sending letters to friends. <br>
 We use addresses, helpers, and special codes to make sure everything goes to the right place. <br>
 Routers are like traffic directors to help the letters (data) travel around the neighborhood (the internet) efficiently.
 
-## Table of Contents
+## Table of Content
 
-- [Networking Basics](#Networking-Basics)
-	- [Subnet Mask](#Subnet-Mask)
-	- [Subnet](#Subnet)
-    - [Subnet Information](#Subnet-Information)
-    - [IP Address](#IP-Address)
-    - [TCP](#TCP-(Transmission-Control-Protocol))
-    - [Routers](#Routers)
-    - [Switches](#Switches)
-    - [Routing Table Elements](#Routing-Table-Elements)
-        - [Destination Network / IP Address](#Destination-Network-or-IP-Address)
-        - [Next-Hop Router](#Next-Hop-Router-or-Gateway)
-        - [Subnet Mask](#Subnet-Mask-(Netmask))
-        - [Interface](#Interface)
+- [Subnet Mask](#Subnet-Mask)
+- [Subnet](#Subnet)
+- [Subnet Information](#Subnet-Information)
+- [IP Address](#IP-Address)
+- [TCP](#TCP-Transmission-Control-Protocol)
+- [Routers](#Routers)
+- [Switches](#Switches)
+- [Routing Table Elements](#Routing-Table-Elements)
+  - [Destination Network / IP Address](#Destination-Network-or-IP-Address)
+  - [Next-Hop Router](#Next-Hop-Router-or-Gateway)
+  - [Subnet Mask](#Subnet-Mask-Netmask)
+  - [Interface](#Interface)
 - [Resources](#Resources)
 
 ## 🌐 Networking Basics
