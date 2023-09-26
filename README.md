@@ -2,8 +2,7 @@
 
 This repository contains information about networking. <br>
 Computers and the internet are a bit like sending letters to friends. <br>
-We use addresses, helpers, and special codes to make sure everything goes to the right place. <br>
-Routers are like traffic directors to help the letters (data) travel around the neighborhood (the internet) efficiently.
+We use addresses, helpers *(routers & switches)*, and special codes to make sure everything goes to the right place. <br>
 
 ## Table of Content
 
