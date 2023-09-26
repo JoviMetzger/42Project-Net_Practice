@@ -7,7 +7,7 @@ Routers are like traffic directors to help the letters (data) travel around the 
 
 ## Table of Content
 
-- [Subnet Mask](#📨-Subnet-Mask)
+- [Subnet Mask](#Subnet-Mask)
 - [Subnet](#📨-Subnet)
 - [Subnet Information](#📨-Subnet-Information)
 - [IP Address](#📨-IP-Address)
@@ -23,7 +23,7 @@ Routers are like traffic directors to help the letters (data) travel around the 
 
 ## 🌐 Networking Basics
 
-### 📨 Subnet Mask
+### Subnet Mask
 A subnet mask is a 32-bit (IPv4) or 128-bit (IPv6) number used to separate the network and host portions of an IP address. <br>
 It's represented in decimal (e.g., 255.255.255.0) or CIDR notation (e.g., /24). <br>
 In a network, devices or subnets within the same segment often share the same subnet mask. <br>
