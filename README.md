@@ -84,7 +84,7 @@ Think of this like the part of the address that says which street your friend's 
 Represents the network interface (e.g., Ethernet, Wi-Fi, VLAN) used to transmit packets to the next-hop router or gateway.
 Imagine this as the way the letter or data leaves your house. It's like choosing whether to send a letter through the mailbox or drop it at the post office.
 
-![image]()
+![image](https://github.com/JoviMetzger/42Project-Net_Practice/assets/117259075/8d2ad1d7-c63c-4a29-8239-c740678cce71)
 
 
 ## 🌐 Resources
