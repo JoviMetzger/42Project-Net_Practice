@@ -11,7 +11,7 @@ Routers are like traffic directors to help the letters (data) travel around the 
 - [Subnet](#Subnet)
 - [Subnet Information](#Subnet-Information)
 - [IP Address](#IP-Address)
-- [TCP](#TCP-(Transmission-Control-Protocol))
+- [TCP](#TCP-Transmission-Control-Protocol)
 - [Routers](#Routers)
 - [Switches](#Switches)
 - [Routing Table Elements](#Routing-Table-Elements)
