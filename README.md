@@ -7,19 +7,19 @@ Routers are like traffic directors to help the letters (data) travel around the 
 
 ## Table of Content
 
-- [Subnet Mask](#Subnet-Mask)
-- [Subnet](#Subnet)
-- [Subnet Information](#Subnet-Information)
-- [IP Address](#IP-Address)
-- [TCP](#TCP-Transmission-Control-Protocol)
-- [Routers](#Routers)
-- [Switches](#Switches)
-- [Routing Table Elements](#Routing-Table-Elements)
-  - [Destination Network / IP Address](#Destination-Network-or-IP-Address)
-  - [Next-Hop Router](#Next-Hop-Router-or-Gateway)
-  - [Subnet Mask](#Subnet-Mask-Netmask)
-  - [Interface](#Interface)
-- [Resources](#Resources)
+- [Subnet Mask](#📨-Subnet-Mask)
+- [Subnet](#📨-Subnet)
+- [Subnet Information](#📨-Subnet-Information)
+- [IP Address](#📨-IP-Address)
+- [TCP](#📨-TCP-(Transmission-Control-Protocol))
+- [Routers](#📨-Routers)
+- [Switches](#📨-Switches)
+- [Routing Table Elements](#📨-Routing-Table-Elements)
+    - [Destination Network / IP Address](#📨-Destination-Network-or-IP-Address)
+    - [Next-Hop Router](#📨-Next-Hop-Router-or-Gateway)
+    - [Subnet Mask](#📨-Subnet-Mask-(Netmask))
+    - [Interface](#📨-Interface)
+- [Resources](#🌐-Resources)
 
 ## 🌐 Networking Basics
 
