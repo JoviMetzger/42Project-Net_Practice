@@ -72,27 +72,27 @@ Switches create local area networks (LANs) by forwarding Ethernet frames within 
 Switches are like traffic lights for computers in a neighborhood. They help them talk to each other quickly and without confusion. <br>
 
 ### 📨Routing Table Elements
--  🔵**Routing Tables** <br>
+-  🔵 **Routing Tables** <br>
 Essential tools for routers to make forwarding decisions based on destination IP addresses.
 Ensure efficient and accurate routing of network traffic.
 Think of this like a big list the postman carries, showing all the addresses they know and how to get to them. They use this list to make sure your letters reach the right place.
 
--  🟢**Destination Network or IP Address** <br>
+-  🟢 **Destination Network or IP Address** <br>
 Defines the network or specific host to which traffic should be directed.
 Represents a range of IP addresses in CIDR notation for networks or a single IP address for hosts.
 This is like telling a postman the address of your friend's house so the letter can be delivered to the right place.
 
--  🔴**Next-Hop Router or Gateway** <br>
+-  🔴 **Next-Hop Router or Gateway** <br>
 The IP address of the device responsible for forwarding traffic to the final destination.
 Can be directly connected to the router or further upstream.
 This is like the postman's helper who knows how to get your letter closer to your friend's house. They pass it along until it gets there.
 
--  🟡**Subnet Mask *(Netmask)*** <br>
+-  🟡 **Subnet Mask *(Netmask)*** <br>
 Indicates which part of the IP address is for the network and which is for hosts.
 Helps routers determine if an IP address belongs to a specified destination network.
 Think of this like the part of the address that says which street your friend's house is on. It helps computers know which group they belong to.
 
--  🟣**Interface** <br>
+-  🟣 **Interface** <br>
 Represents the network interface (e.g., Ethernet, Wi-Fi, VLAN) used to transmit packets to the next-hop router or gateway.
 Imagine this as the way the letter or data leaves your house. It's like choosing whether to send a letter through the mailbox or drop it at the post office.
 
