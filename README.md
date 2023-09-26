@@ -15,10 +15,6 @@ Routers are like traffic directors to help the letters (data) travel around the 
 - [Routers](#Routers)
 - [Switches](#Switches)
 - [Routing Table Elements](#Routing-Table-Elements)
-    - [Destination Network / IP Address](#Destination-Network-or-IP-Address)
-    - [Next-Hop Router](#Next-Hop-Router-or-Gateway)
-    - [Subnet Mask](#Subnet-Mask-(Netmask))
-    - [Interface](#Interface)
 - [Resources](#Resources)
 
 ## 🌐 Networking Basics
@@ -96,7 +92,7 @@ Indicates which part of the IP address is for the network and which is for hosts
 Helps routers determine if an IP address belongs to a specified destination network.
 Think of this like the part of the address that says which street your friend's house is on. It helps computers know which group they belong to.
 
--  #### 🟣**Interface** <br>
+-  🟣**Interface** <br>
 Represents the network interface (e.g., Ethernet, Wi-Fi, VLAN) used to transmit packets to the next-hop router or gateway.
 Imagine this as the way the letter or data leaves your house. It's like choosing whether to send a letter through the mailbox or drop it at the post office.
 
